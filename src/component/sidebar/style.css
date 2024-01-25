@@ -1,0 +1,121 @@
+.sidebar {
+    display: flex;
+    height: 100vh;
+    padding: 16px 0px 24px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    flex-shrink: 0;
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    /* overflow: scroll; */
+    transition: all .1s ease-out;
+
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    align-self: stretch;
+}
+.sidebar-header {
+
+    padding-left: 20px;
+}
+
+
+.open-close-btn {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 18px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 0px 20px;
+    background: linear-gradient( 180deg, rgb(239, 211, 50), rgb(244, 161, 45));
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+.logo {
+    position: relative;
+    display: flex;
+    padding-top: 2px;
+    gap: 8px;
+    align-items: center;
+    align-self: stretch;
+    height: 71px;
+
+}
+
+.logo img {
+    width: 45px;
+    margin-top: 12px;
+}
+
+.sidebar-list {
+    /* display: flex; */
+    padding-left: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.sidebar-item {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 42px 98px 98px 42px;
+    margin-right: 15px;
+}
+
+.sidebar-item-name {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+    /* font-family: Sora; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sidebar-bottom{
+    width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+.signout {
+    border-radius: 20px 48px 48px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    color: rgb(223, 224, 224);
+    cursor: pointer;
+}
+
+.signout-btn {
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.active{
+    background: linear-gradient( 200deg, rgb(250, 219, 44), rgb(240, 153, 31));
+}
+.active .sidebar-item-name{
+    color: rgb(255, 255, 255);
+}

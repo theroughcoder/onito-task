@@ -1,0 +1,18 @@
+.App {
+    /* text-align: center; */
+    display: flex;
+  }
+  .container{
+    background-color: #F8F8F8;
+    width: 100%;
+    min-height: 100vh;
+    transition: all .1s ease-out;
+  
+  }
+  
+  
+  
+  
+  
+  
+  

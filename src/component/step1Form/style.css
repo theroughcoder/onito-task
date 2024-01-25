@@ -1,0 +1,19 @@
+
+.form{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(76, 76, 76);
+    padding: 20px;
+}
+.form-head{
+    font-weight: 500;
+    /* font-size: 50px; */
+    font-family: "roboto";
+    color: rgb(93, 91, 91);
+}
+.form-bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
